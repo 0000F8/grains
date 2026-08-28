@@ -1,0 +1,27 @@
+{
+  "name": "grains-sdk",
+  "version": "0.1.0",
+  "description": "The JavaScript/Node framework for building Grains agents -- deploy AI agents that run hosted, get a signed cryptographic identity, and can charge per call.",
+  "type": "module",
+  "license": "Apache-2.0",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0000F8/grains"
+  },
+  "homepage": "https://grains.run",
+  "scripts": {
+    "test": "node --test"
+  },
+  "files": [
+    "index.js",
+    "LICENSE",
+    "README.md"
+  ]
+}

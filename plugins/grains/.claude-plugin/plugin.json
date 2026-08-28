@@ -1,0 +1,17 @@
+{
+  "name": "grains",
+  "displayName": "Grains",
+  "version": "0.1.0",
+  "description": "Deploy AI agents to grains.run from inside Claude: scaffold, deploy, invoke, price. Bundles the hosted MCP server — sign in with GitHub in your browser, no token to paste.",
+  "author": { "name": "Grains", "url": "https://grains.run" },
+  "homepage": "https://grains.run/docs.html",
+  "repository": "https://github.com/0000F8/grains",
+  "license": "Apache-2.0",
+  "keywords": ["agents", "deploy", "hosting", "mcp", "x402"],
+  "mcpServers": {
+    "grains": {
+      "type": "http",
+      "url": "https://mcp.grains.run/mcp"
+    }
+  }
+}

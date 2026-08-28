@@ -1,0 +1,5 @@
+[agent]
+name = "example-node"
+entrypoint = "grains_app:handle"
+runtime = "nodejs20.x"
+public = false

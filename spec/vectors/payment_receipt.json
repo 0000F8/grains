@@ -1,0 +1,52 @@
+{
+  "spec": "grains-receipt/0.1",
+  "type": "payment",
+  "id": "018f3c1e-0000-7000-8000-000000000001",
+  "issued_at": "2026-08-23T00:00:00Z",
+  "payee": "did:key:zQ3shei4So73C8ZVPvjGRXQNBE333KCs9R55K9UE3yDssLTuk",
+  "payer": null,
+  "agent": "agents.grains.run/example",
+  "task_id": "task_0001",
+  "amount": {
+    "value": "1.500000",
+    "currency": "USDC",
+    "decimals": 6
+  },
+  "fee": {
+    "value": "0.075000",
+    "recipient": "0x0000000000000000000000000000000000000fee"
+  },
+  "rail": "x402:evm:base-sepolia",
+  "tx": {
+    "chain_id": 84532,
+    "hash": "0xabababababababababababababababababababababababababababababababab"
+  },
+  "payee_identity": {
+    "spec": "grains-identity/0.1",
+    "did": "did:key:zQ3shei4So73C8ZVPvjGRXQNBE333KCs9R55K9UE3yDssLTuk",
+    "version": 1,
+    "created_at": "2026-08-23T00:00:00Z",
+    "bindings": [
+      {
+        "type": "rail",
+        "rail": "evm:base-sepolia",
+        "address": "0xdf8457361db183f828ec45d9663892d8e1a6315f"
+      },
+      {
+        "type": "venue",
+        "venue": "grains",
+        "endpoint": "agents.grains.run/example"
+      }
+    ],
+    "sig": {
+      "alg": "ES256K",
+      "kid": "did:key:zQ3shei4So73C8ZVPvjGRXQNBE333KCs9R55K9UE3yDssLTuk",
+      "value": "kdnoapwHB-hbUru160PQRhwQdpOah69PuQDGD_CUzBx9kUqn5S2RcPc4hVGfXGFJNnsR-ZrC075r5X3n1yVMlA"
+    }
+  },
+  "sig": {
+    "alg": "ES256K",
+    "kid": "did:key:zQ3shei4So73C8ZVPvjGRXQNBE333KCs9R55K9UE3yDssLTuk",
+    "value": "RCpngeehJR5nuDdVSQAJbwHpBrUGwlrZZSIvCWOxweQrAb2ByLOEK2eRwJDDGQNJbZ_HY9eYGKo8ZFaV1Q5AMg"
+  }
+}

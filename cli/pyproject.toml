@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "grains-cli"
+version = "0.2.2"
+description = "Command-line tools for Grains: build, run, deploy, and pay AI agents."
+readme = "README.md"
+license = "Apache-2.0"
+authors = [{ name = "Grains" }]
+keywords = ["ai", "agents", "llm", "claude", "mcp", "x402", "hosting"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries",
+]
+requires-python = ">=3.10"
+dependencies = ["grains-sdk[crypto]>=0.1.0", "httpx", "eth-account>=0.11"]
+
+[project.scripts]
+grains = "grains_cli.main:main"
+grains-cli = "grains_cli.main:main"
+
+[project.urls]
+Homepage = "https://grains.run"
+Documentation = "https://grains.run/docs.html"
+Repository = "https://github.com/0000F8/grains"
+
+[tool.setuptools.packages.find]
+include = ["grains_cli*"]

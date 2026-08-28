@@ -1,0 +1,5 @@
+[agent]
+name = "example-python"
+entrypoint = "grains_app:handle"
+runtime = "python3.12"
+public = false

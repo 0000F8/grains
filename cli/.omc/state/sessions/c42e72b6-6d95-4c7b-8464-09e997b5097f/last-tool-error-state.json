@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"cd /Users/z1ggy/.claude/jobs/c42e72b6/tmp && rm -rf shiptest && mkdir shiptest && cd shiptest\\npython3 -m venv v && ./v/bin/pip -q install grains-cli==0.2.0 2>&1 | grep -i error\\nmkdir hel...",
+  "error": "Exit code 127\n\u001b[31mERROR: Could not find a version that satisfies the requirement grains-cli==0.2.0 (from versions: 0.1.0, 0.1.1)\u001b[0m\u001b[31m\n\u001b[0m\u001b[31mERROR: No matching distribution found for grains-cli==0.2.0\u001b[0m\u001b[31m\n(eval):4: no such file or directory: ../v/bin/grains",
+  "timestamp": "2026-08-24T17:35:55.998Z",
+  "retry_count": 1
+}

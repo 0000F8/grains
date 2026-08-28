@@ -1,0 +1,8 @@
+{
+  "comment": "PUBLIC test key - sha256(b'grains spec test vector key 1'). Never use for real funds or identity.",
+  "private_key_hex": "273ca99b8e2c3aa7f6a030a85b14a526aa7c51a81fe6d0e16e61f97a5e59c555",
+  "public_key_compressed_hex": "0301034a7d1a4988fba3fe51e8066f06b3522183167ad681b655c04d4ec454eff3",
+  "public_key_uncompressed_hex": "0401034a7d1a4988fba3fe51e8066f06b3522183167ad681b655c04d4ec454eff39206bf91e4dcc673b185a67442f323c6f94bc57c50920035451783e82b42a049",
+  "did": "did:key:zQ3shei4So73C8ZVPvjGRXQNBE333KCs9R55K9UE3yDssLTuk",
+  "evm_address": "0xdf8457361db183f828ec45d9663892d8e1a6315f"
+}

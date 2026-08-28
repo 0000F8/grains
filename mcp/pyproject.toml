@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "grains-mcp"
+version = "0.2.1"
+description = "MCP server for Grains: build and deploy hosted AI agents without leaving Claude."
+readme = "README.md"
+license = "Apache-2.0"
+authors = [{ name = "Grains" }]
+keywords = ["ai", "agents", "llm", "claude", "mcp", "x402", "hosting"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries",
+]
+requires-python = ">=3.10"
+dependencies = ["mcp>=1.29,<2.0", "httpx", "grains-cli>=0.1.0", "grains-sdk>=0.1.0"]
+
+[project.scripts]
+grains-mcp = "grains_mcp.server:main"
+
+[project.urls]
+Homepage = "https://grains.run"
+Documentation = "https://grains.run/docs.html"
+Repository = "https://github.com/0000F8/grains"
+
+[tool.setuptools.packages.find]
+include = ["grains_mcp*"]

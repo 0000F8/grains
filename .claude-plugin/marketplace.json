@@ -1,0 +1,14 @@
+{
+  "name": "grains",
+  "owner": { "name": "Grains", "url": "https://grains.run" },
+  "description": "Deploy AI agents to grains.run from inside Claude",
+  "plugins": [
+    {
+      "name": "grains",
+      "source": "./plugins/grains",
+      "description": "Deploy, invoke, and monetize hosted agents on grains.run — bundles the hosted MCP server (browser sign-in, no token paste)",
+      "category": "development",
+      "keywords": ["agents", "deploy", "hosting", "x402", "mcp"]
+    }
+  ]
+}
